@@ -67,3 +67,5 @@ app.use(bodyParser.urlencoded({ extended: false }));
 7 - En el router.post del login.js se realizan las configuraciones necesarias especificadas por la librería ldapauth-fork para la encontrar el usuario. Siguiendo los pasos de la [documentación] (https://www.npmjs.com/package/ldapauth-fork)
 
 8 - Una vez hecha la validación contra LDAP. Si no encuentra al usuario vuelve a la página de login, si lo encuentra muestra datos relativos al usuario.
+
+#Probando push para desplegar
